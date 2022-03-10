@@ -1,0 +1,129 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    font-size: 1.2rem;
+    max-width: 10rem;
+    color: rgba(255, 255, 255, 0.37);
+}
+
+input {
+    background: none;
+    border: none;
+}
+
+
+
+/* nav-bar */
+.navBar {
+    width: 100%;
+}
+
+/* top element */
+.topElement {
+    width: inherit;
+    min-height: 1.2rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topElement--link {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 300;
+    border-right: 2px solid rgba(255, 255, 255, 0.795);
+    padding-inline: 0.5rem;
+}
+
+.topElement--link:hover{
+    color: rgba(255, 255, 255, 0.466);
+}
+.last {
+    margin-right: 2rem;
+    border: none;
+}
+
+/* main element */
+
+.mainElement {
+    width: inherit;
+    height: 3.5rem;
+    padding-block: 0.5rem;
+    background: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nikeLogo {
+    margin: 3rem;
+}
+
+.mainElement--link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mainElement--link:hover{
+    border-bottom: 0.15rem solid rgba(128, 128, 128, 0.651);
+}
+
+.mainElement--end {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+/* search-bar */
+.searchBar {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+#searchButton {
+    width: 2rem;
+    height: 2rem;
+   
+    border-radius: 60%;
+    margin: 0.2rem;
+}
+
+#searchButton:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+#searchButton--img {
+    width: 1.4rem;
+}
+
+#likedImg {
+    width: 2rem;
+    margin: 0.2rem;
+}
+
+.imgHover:hover{
+   opacity: 0.5;
+}
+#cartImg {
+    width: 2rem;
+    margin: 0.2rem;
+}
