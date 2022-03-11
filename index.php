@@ -12,11 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Open+Sans&family=Pacifico&family=Poppins:wght@100;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/navBar.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-    <main>
+<main> 
         <?php include_once 'components/navBar.php'; ?>
+
+     
+        <?php include_once 'components/main.php'; ?>
     </main>
 </body>
 

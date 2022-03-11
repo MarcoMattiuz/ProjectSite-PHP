@@ -1,0 +1,52 @@
+.image{
+  position: absolute;
+  width: 100%;
+  max-width: 2024px;
+  height:40em;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+.nike-logo{
+    width: 52%;
+}
+.mainPage{
+  position: relative;
+  color: white;
+  height: 65%;
+  margin:10% 10% 12% 12%;
+  display: flex;
+  justify-content: center;
+
+}
+.mainPage img{
+  position: inline;
+  width: 60em;
+  min-width: 30em;
+  max-height: 34em;
+}
+.left-main-txt h1{
+  font-size: clamp(2em, 3.5vw, 5em);
+  white-space: nowrap; 
+}
+.left-main-txt h2{
+  font-size: clamp(1.8em, 3vw, 3em);
+  padding-top:1em;
+  color:rgba(39, 199, 148, 1);
+}
+.left-main-txt h3{
+  padding-top:1em;
+}
+.add-to-cart{
+  margin-top: 2em;
+  width:10em;
+  height: 3em;
+  border-radius: 10em;
+  background-color:rgba(39, 199, 148, 1);
+  transition: background-color 150ms;
+}
+.add-to-cart:hover{
+  background-color:rgb(38, 124, 97);
+}
+
+
