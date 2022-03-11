@@ -1,4 +1,10 @@
 <?php
+    $arr = array("airMax","airMax","airMax","airMax","af1","af1","af1","af1"); 
     $data = $_GET["searchData"];
-    echo $data;
+    for($i=0;$i<count($arr);$i++){
+        if($data == $arr[$i]){
+            echo $arr[$i].'<hr>';
+        }
+        
+    }
 ?>
