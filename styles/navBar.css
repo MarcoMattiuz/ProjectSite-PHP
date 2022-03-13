@@ -36,6 +36,7 @@ input {
 .topElement {
     width: inherit;
     min-height: 1.2rem;
+    height: 2rem;
     background-color: black;
     display: flex;
     align-items: center;
@@ -43,6 +44,7 @@ input {
 }
 
 .topElement--link {
+    display: block;
     font-size: 0.8rem;
     color: white;
     font-weight: 300;
@@ -50,7 +52,12 @@ input {
     line-height: 0.8em;
     padding-inline: 0.5rem;
 }
-
+.mainElements--link_container{
+    margin-left: 6rem;
+    white-space: nowrap;
+    overflow: hidden;
+ 
+}
 .topElement--link:hover{
     color: rgba(255, 255, 255, 0.466);
 }
@@ -58,6 +65,7 @@ input {
     margin-right: 2rem;
     border: none;
 }
+
 
 /* main element */
 
@@ -72,6 +80,7 @@ input {
 }
 
 #nikeLogo {
+    width: 4rem;
     margin: 3rem;
 }
 
@@ -90,7 +99,7 @@ input {
 .mainElement--end {
     display: flex;
     align-items: center;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 /* search-bar */
@@ -115,9 +124,13 @@ input {
 #searchButton--img {
     width: 1.4rem;
 }
-
+.ham-menu{
+    display: none;
+    width: 1.8rem;
+    margin: 1rem;
+}
 #likedImg {
-    width: 2rem;
+    width: 1.8rem;
     margin: 1rem;
 }
 
@@ -125,6 +138,21 @@ input {
    opacity: 0.5;
 }
 #cartImg {
-    width: 2rem;
+    width: 1.8rem;
     margin: 0.5rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .topElement, .mainElements--link_container,#likedImg{
+      display: none;
+    }
+    #nikeLogo {
+        margin: 1.5rem;
+    }
+    .mainElement{
+        height: 3rem;
+    }
+    .ham-menu{
+        display: block;
+    }
 }

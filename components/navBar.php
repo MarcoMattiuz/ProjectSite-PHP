@@ -20,6 +20,7 @@
             </form>
             <img src="assets/likedLogo.svg" alt="liked" id="likedImg" class="imgHover">
             <img src="assets/shopCartLogo.svg" alt="shop cart" id="cartImg" class="imgHover">
+            <img src="assets/MenuRounded.svg" alt="menu" class="ham-menu">
         </div>
     </div>
 </nav>
