@@ -1,0 +1,22 @@
+.descriptive{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.descriptive img{
+    width:50%;
+    object-fit: cover;  
+}
+.description{
+    width: 30%;
+    
+    margin: 0 auto;
+}
+.description h2{
+    font-size: clamp(1.3em, 1.6vw,2em);
+}
+.description p{
+    margin-top:1em;
+    font-size: clamp(1em, 1.2vw, 1.2em);
+}

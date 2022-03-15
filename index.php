@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/navBar.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/secondPart.css">
 </head>
 
 <body>
-<main> 
+    <main> 
         <?php include_once 'components/navBar.php'; ?>
         <?php include_once 'components/main.php'; ?>
     </main>
+    <?php include_once 'components/secondPart.php'; ?>
 </body>
 
 </html>
