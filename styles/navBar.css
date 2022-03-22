@@ -89,11 +89,11 @@ input {
     font-size: 1rem;
     font-weight: 700;
     margin: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .mainElement--link:hover{
-    border-bottom: 0.15rem solid rgba(255, 255, 255, 0.851);
+    border-bottom: 0.15rem solid rgba(0, 0, 0, 0.851);
 }
 
 .mainElement--end {
@@ -124,6 +124,39 @@ input {
 #searchButton--img {
     width: 1.4rem;
 }
+.hamburger-menu{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background-color:rgb(241, 241, 241);
+    z-index: 2 ;
+    width: 20em;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+.hamburger-menu li a{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+
+}
+.hamburger-menu li img{
+    width: 1.2rem;
+    margin: 1.5rem;
+}
+.hamburger-menu li{
+    list-style-type: none;
+    margin-left:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger-menu li:first-child{
+    margin-top:6rem;
+}
 .ham-menu{
     display: none;
     width: 1.8rem;
@@ -141,10 +174,38 @@ input {
     width: 1.8rem;
     margin: 0.5rem;
 }
-
+/* buttons hamburger menu */
+.buttons{
+    width: 17em;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sign-up{
+    background-color: #171717;
+    border-radius: 10em;
+    padding: 0.5rem;
+    width: 7rem;
+    color:rgb(241, 241, 241) ;
+}
+.sign-up:hover{
+    background-color:#525252 ;
+}
+.log-in{
+    border: rgb(179, 179, 179) solid 2px;
+    border-radius: 10em;
+    width: 5.5rem;
+}
+.log-in:hover{
+    border-color: rgb(78, 78, 78);
+}
 @media only screen and (max-width: 960px) {
     .topElement, .mainElements--link_container,#likedImg{
       display: none;
+    }
+
+    .topElement {
+        height: 2rem;
     }
     #nikeLogo {
         margin: 1.5rem;
@@ -154,5 +215,14 @@ input {
     }
     .ham-menu{
         display: block;
+    }
+
+    .hamburger-menu{
+        visibility: visible;
+        right: 0px;
+        
+    }
+    input{
+        max-width: 7rem;
     }
 }

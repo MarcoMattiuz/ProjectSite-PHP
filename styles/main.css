@@ -6,6 +6,7 @@
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
+ 
 }
 .nike-logo{
     width: 52%;
@@ -24,6 +25,7 @@
   width: 60em;
   min-width: 30em;
   max-height: 34em;
+
 }
 .left-main-txt h1{
   font-size: clamp(2em, 3.5vw, 5em);
@@ -48,5 +50,10 @@
 .add-to-cart:hover{
   background-color:rgb(38, 124, 97);
 }
-
+@media only screen and (max-width: 960px) {
+  .mainPage img{
+    display: none;
+  
+  }
+}
 

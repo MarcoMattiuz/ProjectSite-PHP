@@ -18,8 +18,8 @@
 
 <body>
     <main> 
-        <?php include_once 'components/navBar.php'; ?>
-        <?php include_once 'components/main.php'; ?>
+        <?php include_once 'components/navBar.php'; 
+         include_once 'components/main.php'; ?>
     </main>
     <?php include_once 'components/secondPart.php'; ?>
 </body>

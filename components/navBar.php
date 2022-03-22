@@ -24,3 +24,14 @@
         </div>
     </div>
 </nav>
+<nav class="hamburger-menu">
+    <li><a href="#" class="mainElement--link">New Realeases</a><img src="../assets/forwardArrow.svg"></li>
+    <li><a href="#" class="mainElement--link">Men</a><img src="../assets/forwardArrow.svg"></li>
+    <li><a href="#" class="mainElement--link">Woman</a><img src="../assets/forwardArrow.svg"></li>
+    <li><a href="#" class="mainElement--link">Kids</a><img src="../assets/forwardArrow.svg"></li>
+    <li><a href="#" class="mainElement--link">Sales</a><img src="../assets/forwardArrow.svg"></li>
+    <div class="buttons">
+        <button class="sign-up">Registrati</button>
+        <button class="log-in">Accedi</button>
+    </div>     
+</nav>
