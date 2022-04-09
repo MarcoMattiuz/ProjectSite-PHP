@@ -1,3 +1,19 @@
+<nav class="ham-big">
+    <button onclick="toggleNav()"class="exit-ham"></button>
+    <div class="hamburger-menu">
+        <button onclick="toggleNav()" class="exit-cross"></button>
+        <li><a href="#" class="mainElement--link">New Realeases</a><img src="../assets/forwardArrow.svg"></li>
+        <li><a href="#" class="mainElement--link">Men</a><img src="../assets/forwardArrow.svg"></li>
+        <li><a href="#" class="mainElement--link">Woman</a><img src="../assets/forwardArrow.svg"></li>
+        <li><a href="#" class="mainElement--link">Kids</a><img src="../assets/forwardArrow.svg"></li>
+        <li><a href="#" class="mainElement--link">Sales</a><img src="../assets/forwardArrow.svg"></li>
+        <div class="buttons">
+            <button class="sign-up">Registrati</button>
+            <button class="log-in">Accedi</button>
+        </div>  
+    
+    </div>
+</nav>
 <nav class="navBar">
     <div class="topElement">
         <a href="#" class="topElement--link">Help</a>
@@ -20,18 +36,9 @@
             </form>
             <img src="assets/likedLogo.svg" alt="liked" id="likedImg" class="imgHover">
             <img src="assets/shopCartLogo.svg" alt="shop cart" id="cartImg" class="imgHover">
-            <img src="assets/MenuRounded.svg" alt="menu" class="ham-menu">
+            <button onclick="toggleNav()"><img src="assets/MenuRounded.svg" alt="menu" class="ham-menu"></button>
         </div>
     </div>
 </nav>
-<nav class="hamburger-menu">
-    <li><a href="#" class="mainElement--link">New Realeases</a><img src="../assets/forwardArrow.svg"></li>
-    <li><a href="#" class="mainElement--link">Men</a><img src="../assets/forwardArrow.svg"></li>
-    <li><a href="#" class="mainElement--link">Woman</a><img src="../assets/forwardArrow.svg"></li>
-    <li><a href="#" class="mainElement--link">Kids</a><img src="../assets/forwardArrow.svg"></li>
-    <li><a href="#" class="mainElement--link">Sales</a><img src="../assets/forwardArrow.svg"></li>
-    <div class="buttons">
-        <button class="sign-up">Registrati</button>
-        <button class="log-in">Accedi</button>
-    </div>     
-</nav>
+
+<div class="blur"></div>

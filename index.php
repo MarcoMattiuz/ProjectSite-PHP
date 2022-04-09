@@ -18,10 +18,14 @@
 
 <body>
     <main> 
-        <?php include_once 'components/navBar.php'; 
-         include_once 'components/main.php'; ?>
+        <?php
+         include_once 'components/navBar.php'; 
+         include_once 'components/main.php';
+          ?>
     </main>
-    <?php include_once 'components/secondPart.php'; ?>
+    <section class="second-part">
+     <?php include_once 'components/secondPart.php'; ?>
+    </section>
 </body>
-
+    <script src="scripts/toggleNav.js"></script>
 </html>
